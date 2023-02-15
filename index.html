@@ -9,9 +9,15 @@
 		/*Cuando la pantalla es menor a 900px (Tablets y mobile) */
 		@media (max-width: 900px) {body {background-color: green;}}
 
-		/*Clase para el estilo Hover */
+		/*Clase para el estilo Hover en texto */
 		.efecto:hover {color: #0000FF;filter: saturate(180%);}
-		}
+
+		/*Clases para el estilo Hover en imagen */
+		.contenedor:hover {filter: opacity(.5);}
+		.contenedor2:hover{border-radius:50%; -webkit-border-radius:50%; box-shadow: 0px 0px 15px 15px #ec731e; -webkit-box-shadow: 0px 0px 15px 15px #ec731e; transform: rotate(360deg); -webkit-transform: rotate(360deg);}
+		.contenedor3:hover {-webkit-transform: rotateY(180deg); -webkit-transform-style: preserve-3d; transform: rotateY(180deg);transform-style: preserve-3d;}
+		.contenedor4:hover {-webkit-transform:scale(0.9);transform:scale(0.9);overflow:hidden;}
+		
 	</style>
 </head>
 <body>
@@ -53,45 +59,45 @@
 	<section id="categorias"style="background-color: gray"> 
 		<h2 class="efecto">Refresh your space</h2>
 		<div id="cat1"style="background-color: #F2FAFB">
-			<img src="images/images (1).jpg"/>
+			<img class = "contenedor" src="images/images (1).jpg"/>
 			<h3>Comida</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor" src="images/images (2).jpg" />
 			<h3>Casa</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor" src="images/images (2).jpg" />
 			<h3>Cocina</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor" src="images/images (2).jpg" />
 			<h3>Salud y Belleza</h3>
 			<a href="" >Ver mas</a>
 		</div>
 
 		<h2 class="efecto">Gaming accessories</h2>
 		<div id="cat2"style="background-color: #F2FAFB">
-			<img src="images/images (1).jpg"/>
+			<img class = "contenedor2" src="images/images (1).jpg"/>
 			<h3>Audifonos</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor2" src="images/images (2).jpg" />
 			<h3>Teclados</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor2" src="images/images (2).jpg" />
 			<h3>mouse</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor2" src="images/images (2).jpg" />
 			<h3>Sillas</h3>
 			<a href="">Ver mas</a>
 		</div>
 
 		<h2 class="efecto">Dresses</h2>
 		<div id="cat3"style="background-color: #F2FAFB">
-			<img src="images/images (1).jpg"/>
+			<img class = "contenedor3" src="images/images (1).jpg"/>
 			<a href="">Compra ahora</a>
 		</div>
 
 		<h2 class="efecto">Shop by Category</h2>
 		<div id="cat4"style="background-color: #F2FAFB">
-			<img src="images/images (1).jpg"/>
+			<img class = "contenedor4" src="images/images (1).jpg"/>
 			<h3>Computadoras y accesorios</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor4" src="images/images (2).jpg" />
 			<h3>Videojuegos</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor4" src="images/images (2).jpg" />
 			<h3>Bebes</h3>
-			<img src="images/images (2).jpg" />
+			<img class = "contenedor4" src="images/images (2).jpg" />
 			<h3>Juguetes & Juegos</h3>
 			<a href="">Compra ahora</a>
 		</div>
