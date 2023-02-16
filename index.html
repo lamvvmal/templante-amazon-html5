@@ -17,9 +17,15 @@
 		.contenedor2:hover{border-radius:50%; -webkit-border-radius:50%; box-shadow: 0px 0px 15px 15px #ec731e; -webkit-box-shadow: 0px 0px 15px 15px #ec731e; transform: rotate(360deg); -webkit-transform: rotate(360deg);}
 		.contenedor3:hover {-webkit-transform: rotateY(180deg); -webkit-transform-style: preserve-3d; transform: rotateY(180deg);transform-style: preserve-3d;}
 		.contenedor4:hover {-webkit-transform:scale(0.9);transform:scale(0.9);overflow:hidden;}
+
+		/* Clase active para la activacion al presionar el mouse */
+		.activar:active {color: #0000FF;}
+		
+		/* Mano de mouse */
+		body {cursor: pointer}
 		
 	</style>
-</head>
+</head>s
 <body>
 	<header>
 		<h1>Logo de Amazon</h1>
@@ -59,7 +65,7 @@
 	<section id="categorias"style="background-color: gray"> 
 		<h2 class="efecto">Refresh your space</h2>
 		<div id="cat1"style="background-color: #F2FAFB">
-			<img class = "contenedor" src="images/images (1).jpg"/>
+			<img class = "contenedor" class="activar" src="images/images (1).jpg"/>
 			<h3>Comida</h3>
 			<img class = "contenedor" src="images/images (2).jpg" />
 			<h3>Casa</h3>
