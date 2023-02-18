@@ -26,8 +26,8 @@
 	
 	</style>
 	<script>
-		function mostraralerta(){
-			alert('un click!');
+		function mostraralerta(link){
+			Console.dir(link);
 		}	
 	</script>
 </head>
@@ -70,7 +70,7 @@
 	<section id="categorias"style="background-color: gray"> 
 		<h2 class="efecto">Refresh your space</h2>
 		<div id="cat1"style="background-color: #F2FAFB">
-			<a onclick="mostraralerta()" href="https://www.amazon.com/-/es/"><img class = "contenedor mouse activar" src="images/images (1).jpg"/></a>
+			<a onclick="mostraralerta(this)" href="https://www.amazon.com/-/es/"><img class = "contenedor mouse activar" src="images/images (1).jpg"/></a>
 			<h3>Comida</h3>
 			<a onclick="mostraralerta()" href="https://www.amazon.com/-/es/"><img class = "contenedor mouse activar" src="images/images (2).jpg"/></a>
 			<h3>Casa</h3>
